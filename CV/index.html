@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Xavi Martí Florit</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/script.js"></script>
+</head>
+<body>
+    <h1 id="nom">Xavi Martí Florit</h1>
+    <table>
+        <tr>
+            <td>
+                <table>
+                    <tr>
+                        <td>
+                            <h3>Dades personals:</h3>
+                            <p>Nom: Lionel Andres Messi<br>Edad: 37
+                            </p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <h3>Dades Acadèmiques:</h3>
+                            <p>Unp poc Down</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <h3>Experiència Laboral</h3>
+                            <ul>
+                                <li>Humillar al R. Mandril</li>
+                                <li>Guanyar Pilotes d'Or</li>
+                            </ul>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+            <td><img id="f" src="https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcSAHmDSOdLA5YgFlEkMmgdweIf3jyGI0EGKqU5U7TpO70GFAY48v1N51eMRpY6mbG-VzfPvgObhOwB8lX4" alt="" width="50%"></td>
+        </tr>
+    </table>
+
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" />
+            <button onclick="canviaNom()">Nom</button>
+            <br>
+            <label for="color">Color:</label>
+            <input type="color" id="color" />
+            <button onclick="canviaColor()">Color</button>
+            <br>
+            <label for="fons">Fons:</label>
+            <input type="color" id="fons" />
+            <button onclick="canviaFons()">Fons</button>
+            <br>
+            <label for="foto">Foto:</label>
+            <input type="file" id="foto" accept="image/png, image/jpeg"/>
+            <button onclick="canviaFoto()">FOTO!</button>
+            <br>
+            <button onclick="canviaTot()">TODO</button>
+
+</body>
+</html>
